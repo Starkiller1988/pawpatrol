@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #4494f1;
+  background-size: cover;
+}
+
+/* Welcome Page */
+
+.paw-logo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 200px;
+  animation: zoom-in 1s ease-out;
+}
+
+.paw-logo2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 12rem;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.memo {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Aachen";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  font-weight: 600;
+  background-color: #0e4788;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid black;
+  animation: button-zoom-in 0.5s ease-in;
+  animation-timing-function: linear;
+}
+
+@keyframes button-zoom-in {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.memo:active {
+  top: 0.1rem;
+}
+
+.voca {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Aachen";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  font-weight: 600;
+  background-color: #0e4788;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid black;
+  animation: button-zoom-in 0.5s ease-in;
+  animation-timing-function: linear;
+}
+
+.voca:active {
+  top: 0.1rem;
+}
+
+.about {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Aachen";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  background-color: #0e4788;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+  font-weight: 600;
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid black;
+  animation: button-zoom-in 0.5s ease-in;
+  animation-timing-function: linear;
+}
+
+.about:active {
+  top: 0.1rem;
+}
+
+.index {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Aachen";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  background-color: #0e4788;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+  font-weight: 600;
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid black;
+  animation: button-zoom-in 0.5s ease-in;
+  animation-timing-function: linear;
+}
+
+.index:active {
+  top: 0.1rem;
+}
+
+.paw {
+  height: 25px;
+  display: row;
+  position: relative;
+  right: 20px;
+  top: 3px;
+  filter: invert(100%) sepia(0%) saturate(7466%) hue-rotate(111deg)
+    brightness(109%) contrast(95%);
+}
+
+.paw2 {
+  height: 25px;
+  display: row;
+  position: relative;
+  right: 20px;
+  filter: invert(100%) sepia(0%) saturate(7466%) hue-rotate(111deg)
+    brightness(109%) contrast(95%);
+}
+
+.paw3 {
+  height: 25px;
+  display: row;
+  position: relative;
+  right: 40px;
+  filter: invert(100%) sepia(0%) saturate(7466%) hue-rotate(111deg)
+    brightness(109%) contrast(95%);
+}
+
+.paw4 {
+  height: 25px;
+  display: row;
+  position: relative;
+  right: 60px;
+  filter: invert(100%) sepia(0%) saturate(7466%) hue-rotate(111deg)
+    brightness(109%) contrast(95%);
+}
+
+.audio-paw {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 10px;
+}
+
+.audio {
+  height: 50px;
+}
+
+/* Index Page */
+
+.title-index{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Aachen;
+  color: white;
+  font-size: 25px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  perspective: 1000px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.text-inner {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  padding: 10px;
+  font-family: Aachen;
+}
+
+.cardfield-row-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cardfield-row-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardfield-row-three{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paw-voice{
+  position: relative;
+  top: 90px;
+  font-family: Aachen;
+  font-size: 20px;
+  width: 100px
+}
+
+.btn_index{
+  display: flex;
+  justify-content: center;
+}
+
+.homebutton{
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Aachen";
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  font-weight: 600;
+  background-color: #0e4788;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  width: 300px;
+  height: 70px;
+  margin-top: 10px;
+}
