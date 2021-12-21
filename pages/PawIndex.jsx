@@ -13,41 +13,48 @@ import Zuma from "../images/zuma.png";
 import Everest from "../images/everest.png";
 import Tracker from "../images/tracker.png";
 
+import wav1 from '../Media/chase.wav'
+import wav2 from '../Media/marshall.wav'
+import wav3 from '../Media/rubble.wav'
+import wav4 from '../Media/rocky.wav'
+import wav5 from '../Media/skye.wav'
+import wav6 from '../Media/zuma.wav'
+
 
 
 function PawIndex() {
 
-let ChaseVoice = new Audio("../Media/chase.wav")
+let ChaseVoice = new Audio(wav1)
 
 const chase = () => {
   ChaseVoice.play()
 }
 
-let MarshallVoice = new Audio("../Media/marshall.wav")
+let MarshallVoice = new Audio(wav2)
 
 const marshall = () => {
   MarshallVoice.play()
 }
 
-let RubbleVoice = new Audio("../Media/rubble.wav")
+let RubbleVoice = new Audio(wav3)
 
 const rubble = () => {
   RubbleVoice.play()
 }
 
-let RockyVoice = new Audio("../Media/rocky.wav")
+let RockyVoice = new Audio(wav4)
 
 const rocky = () => {
   RockyVoice.play()
 }
 
-let SkyeVoice = new Audio("../Media/skye.wav")
+let SkyeVoice = new Audio(wav5)
 
 const skye = () => {
   SkyeVoice.play()
 }
 
-let ZumaVoice = new Audio("../Media/zuma.wav")
+let ZumaVoice = new Audio(wav6)
 
 const zuma = () => {
   ZumaVoice.play()
