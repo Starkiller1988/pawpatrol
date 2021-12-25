@@ -74,13 +74,14 @@ function PawIndex() {
               <img
                 src={Ryder}
                 alt="ryder"
-                style={{ width: "300px", height: "300px" }}
+                style={{ width: "200px", height: "180px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Ryder</h1>
-              <p className="text-inner">Head Trainer of the Paw Patrol</p>
+              <p className="text-inner-paragraph">Trainer</p>
               <button className="paw-voice">Listen</button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -91,15 +92,16 @@ function PawIndex() {
               <img
                 src={Chase}
                 alt="ryder"
-                style={{ width: "150px", height: "250px", marginTop: "20px" }}
+                style={{ width: "100px", height: "180px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Chase</h1>
-              <p className="text-inner">Police Puppy</p>
+              <p className="text-inner-paragraph">Police Puppy</p>
               <button onClick={chase} className="paw-voice">
                 Listen
               </button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -110,15 +112,16 @@ function PawIndex() {
               <img
                 src={Marshal}
                 alt="ryder"
-                style={{ width: "200px", height: "250px", marginTop: "10px" }}
+                style={{ width: "150px", height: "180px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Marshall</h1>
-              <p className="text-inner">Fire Department Puppy</p>
+              <p className="text-inner-paragraph">Fire Department Puppy</p>
               <button onClick={marshall} className="paw-voice">
                 Listen
               </button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -131,15 +134,16 @@ function PawIndex() {
               <img
                 src={Rubble}
                 alt="ryder"
-                style={{ width: "300px", height: "300px" }}
+                style={{ width: "200px", height: "180px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Rubble</h1>
-              <p className="text-inner">Construction Puppy</p>
+              <p className="text-inner-paragraph">Construction Puppy</p>
               <button onClick={rubble} className="paw-voice">
                 Listen
               </button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -150,15 +154,16 @@ function PawIndex() {
               <img
                 src={Rocky}
                 alt="ryder"
-                style={{ width: "200px", height: "250px", marginTop: "15px" }}
+                style={{ width: "150px", height: "180px", marginTop: "10px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Rocky</h1>
-              <p className="text-inner">Recycle Puppy</p>
+              <p className="text-inner-paragraph">Recycle Puppy</p>
               <button onClick={rocky} className="paw-voice">
                 Listen
               </button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -169,15 +174,16 @@ function PawIndex() {
               <img
                 src={Sky}
                 alt="ryder"
-                style={{ width: "200px", height: "250px", marginTop: "15px" }}
+                style={{ width: "150px", height: "180px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Skye</h1>
-              <p className="text-inner">Flying Puppy</p>
+              <p className="text-inner-paragraph">Flying Puppy</p>
               <button onClick={skye} className="paw-voice">
                 Listen
               </button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -190,15 +196,16 @@ function PawIndex() {
               <img
                 src={Zuma}
                 alt="ryder"
-                style={{ width: "150px", height: "200px", marginTop: "40px" }}
+                style={{ width: "140px", height: "160px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Zuma</h1>
-              <p className="text-inner">Aqua Puppy</p>
+              <p className="text-inner-paragraph">Aqua Puppy</p>
               <button onClick={zuma} className="paw-voice">
                 Listen
               </button>
+              <button className="paw-transform">Transform</button>
             </div>
           </div>
         </div>
@@ -209,12 +216,12 @@ function PawIndex() {
               <img
                 src={Everest}
                 alt="ryder"
-                style={{ width: "200px", height: "250px", marginTop: "20px" }}
+                style={{ width: "150px", height: "180px", marginTop: "15px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Everest</h1>
-              <p className="text-inner">Snow Puppy</p>
+              <p className="text-inner-paragraph">Snow Puppy</p>
             </div>
           </div>
         </div>
@@ -225,12 +232,12 @@ function PawIndex() {
               <img
                 src={Tracker}
                 alt="ryder"
-                style={{ width: "250px", height: "250px", marginTop: "20px" }}
+                style={{ width: "170px", height: "180px", marginTop: "10px" }}
               />
             </div>
             <div className="flip-card-back">
               <h1 className="text-inner">Tracker</h1>
-              <p className="text-inner">Forest Puppy</p>
+              <p className="text-inner-paragraph">Forest Puppy</p>
             </div>
           </div>
         </div>
