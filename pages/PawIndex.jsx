@@ -81,7 +81,7 @@ function PawIndex() {
               <h1 className="text-inner">Ryder</h1>
               <p className="text-inner-paragraph">Trainer</p>
               <button className="paw-voice">Listen</button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ function PawIndex() {
               <button onClick={chase} className="paw-voice">
                 Listen
               </button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ function PawIndex() {
               <button onClick={marshall} className="paw-voice">
                 Listen
               </button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ function PawIndex() {
               <button onClick={rubble} className="paw-voice">
                 Listen
               </button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ function PawIndex() {
               <button onClick={rocky} className="paw-voice">
                 Listen
               </button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ function PawIndex() {
               <button onClick={skye} className="paw-voice">
                 Listen
               </button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@ function PawIndex() {
               <button onClick={zuma} className="paw-voice">
                 Listen
               </button>
-              <button className="paw-transform">Transform</button>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -222,6 +222,7 @@ function PawIndex() {
             <div className="flip-card-back">
               <h1 className="text-inner">Everest</h1>
               <p className="text-inner-paragraph">Snow Puppy</p>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>
@@ -238,6 +239,7 @@ function PawIndex() {
             <div className="flip-card-back">
               <h1 className="text-inner">Tracker</h1>
               <p className="text-inner-paragraph">Forest Puppy</p>
+              <button className="paw-transform">Description</button>
             </div>
           </div>
         </div>

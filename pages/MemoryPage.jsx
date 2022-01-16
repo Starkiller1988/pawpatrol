@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import MemoryGame from '../components/memorycomponents/memorygame'
 
 
 function MemoryPage() {
@@ -10,6 +11,9 @@ function MemoryPage() {
       <button className="homebutton">HOME</button>
       </Link>
     </div>
+
+
+<MemoryGame />
 
         </>
     )
