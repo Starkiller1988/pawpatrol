@@ -1,6 +1,6 @@
 import "../memorycomponents/singlecard.css";
 
-import logo from '../../images/PawPatrolImage.png'
+import logo from '../../images/PawPatrolLogo.png'
 
 export default function SingleCard({ card, handleChoice, flipped }) {
   const handleClick = () => {
