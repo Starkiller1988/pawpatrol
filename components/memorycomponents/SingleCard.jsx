@@ -1,5 +1,7 @@
 import "../memorycomponents/singlecard.css";
 
+import logo from '../../images/PawPatrolImage.png'
+
 export default function SingleCard({ card, handleChoice, flipped }) {
   const handleClick = () => {
     handleChoice(card);
@@ -11,7 +13,7 @@ export default function SingleCard({ card, handleChoice, flipped }) {
         <img className="front" src={card.src} alt="card-front" />
         <img
           className="back"
-          src={"../images/PawPatrolLogo.png"}
+          src={logo}
           alt="card-back"
           onClick={handleClick}
         />
