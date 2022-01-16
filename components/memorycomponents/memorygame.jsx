@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
 
+
 const cardImages = [
-  { src: "../images/ryder.png", matched: false },
-  { src: "../images/chase.png", matched: false  },
-  { src: "../images/marshal.png", matched: false  },
-  { src: "../images/rubble.png", matched: false  },
-  { src: "../images/rocky.png", matched: false  },
-  { src: "../images/zuma.png", matched: false  },
-  { src: "../images/everest.png", matched: false  },
-  { src: "../images/tracker.png", matched: false  },
-  { src: "../images/sky.png", matched: false  },
+  { src: "../../images/ryder.png", matched: false },
+  { src: "../../images/chase.png", matched: false  },
+  { src: "../../images/marshal.png", matched: false  },
+  { src: "../../images/rubble.png", matched: false  },
+  { src: "../../images/rocky.png", matched: false  },
+  { src: "../../images/zuma.png", matched: false  },
+  { src: "../../images/everest.png", matched: false  },
+  { src: "../../images/tracker.png", matched: false  },
+  { src: "../../images/sky.png", matched: false  },
 ];
 
 function MemoryGame() {
