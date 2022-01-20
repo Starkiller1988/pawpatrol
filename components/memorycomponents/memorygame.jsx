@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
 
-
 const cardImages = [
   { src: "../../images/ryder.png", matched: false },
-  { src: "../../images/chase.png", matched: false  },
-  { src: "../../images/marshal.png", matched: false  },
-  { src: "../../images/rubble.png", matched: false  },
-  { src: "../../images/rocky.png", matched: false  },
-  { src: "../../images/zuma.png", matched: false  },
-  { src: "../../images/everest.png", matched: false  },
-  { src: "../../images/tracker.png", matched: false  },
-  { src: "../../images/sky.png", matched: false  },
+  { src: "../../images/chase.png", matched: false },
+  { src: "../../images/marshal.png", matched: false },
+  { src: "../../images/rubble.png", matched: false },
+  { src: "../../images/rocky.png", matched: false },
+  { src: "../../images/zuma.png", matched: false },
+  { src: "../../images/everest.png", matched: false },
+  { src: "../../images/tracker.png", matched: false },
+  { src: "../../images/sky.png", matched: false },
 ];
 
 function MemoryGame() {
@@ -40,32 +39,31 @@ function MemoryGame() {
   useEffect(() => {
     if (choiceOne && choiceTwo) {
       if (choiceOne.src === choiceTwo.src) {
-        setCards(prevCards => {
-          return prevCards.map(card => {
+        setCards((prevCards) => {
+          return prevCards.map((card) => {
             if (card.src === choiceOne.src) {
-              return {...card, matched: true}
+              return { ...card, matched: true };
             } else {
-              return card
+              return card;
             }
-          })
-        })
+          });
+        });
         resetTurn();
       } else {
-        
         setTimeout(() => resetTurn(), 1000);
       }
     }
   }, [choiceOne, choiceTwo]);
 
-console.log(cards)
+  console.log(cards);
 
   // reset choices & increase turn
 
   const resetTurn = () => {
     setChoiceOne(null);
     setChoiceTwo(null);
-    setTurns(prevTurns => prevTurns + 1)
-  }
+    setTurns((prevTurns) => prevTurns + 1);
+  };
 
   return (
     <>
@@ -76,9 +74,11 @@ console.log(cards)
       </div>
       <div className="card-grid">
         {cards.map((card) => (
-          <SingleCard key={card.id} card={card} 
-          handleChoice={handleChoice} 
-          flipped={card === choiceOne || card === choiceTwo || card.matched} 
+          <SingleCard
+            key={card.id}
+            card={card}
+            handleChoice={handleChoice}
+            flipped={card === choiceOne || card === choiceTwo || card.matched}
           />
         ))}
       </div>

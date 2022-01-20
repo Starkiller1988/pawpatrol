@@ -7,6 +7,8 @@ body {
   background: #02336b;
   background-size: cover;
   font-family: Aachen;
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Welcome Page */
@@ -216,17 +218,17 @@ body {
   margin-top: 50px;
   font-family: Aachen;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 130px;
   border: 5px solid black;
   perspective: 1000px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   border-radius: 20px;
 }
 
@@ -247,8 +249,8 @@ body {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 130px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 15px;
@@ -268,16 +270,14 @@ body {
 .text-inner {
   text-align: center;
   position: relative;
-  top: 20px;
   padding: 10px;
   font-family: Aachen;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .text-inner-paragraph {
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
-  top: 20px;
 }
 
 .cardfield-row-one{
@@ -301,11 +301,10 @@ body {
 
 .paw-voice{
   position: relative;
-  top: 40px;
+  top: 30px;
   font-family: Aachen;
   font-size: 15px;
-  left: 50px;
-  width: 100px
+  width: 70px
 }
 
 .paw-transform{
@@ -340,10 +339,14 @@ body {
   text-align: center;
   position: relative;
   font-size: 20px;
-  width: 330px;
+  width: 300px;
   height: 70px;
   margin-top: 10px;
-  right: 13px;
+}
+
+.pups{
+  display: flex;
+  width: 50px;
 }
 
 /* Memory Game */
@@ -354,17 +357,22 @@ body {
 }
 
 .new_game{
-  position: relative;
-  top: 60px;
-  right: 10px;
-  width: 100px;
-  height: 40px;
+ display: flex;
+ width: 100px;
+ height: 35px;
+ justify-content: center;
+ padding: 4px;
+ position: relative;
+ top: 50px;
+ font-family: Aachen;
+ color: white;
+ background-color: rgb(67, 89, 138);
 }
 
 .card-grid{
   margin-top: 100px;
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 1fr 5fr 14fr 36fr;
+  grid-template-columns: 0.5fr 0.5fr 1fr 5fr;
   grid-gap: 10px;
-  margin-left: 220px;
+  margin-left: 0px;
 }

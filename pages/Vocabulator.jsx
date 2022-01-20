@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 
 
+
 function Vocabulator() {
+
+
 
   return (
     <>
@@ -12,6 +15,8 @@ function Vocabulator() {
           <button className="homebutton">HOME</button>
         </Link>
       </div>
+
+
     </>
   );
 }
